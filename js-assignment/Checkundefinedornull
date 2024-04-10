@@ -1,0 +1,13 @@
+/* Check undefined or null */
+function undefineORNull(variable) {
+  if (variable == null) {
+    console.log("The variable is undefined or null");
+  } else {
+    console.log("The variable is neither undefined nor null");
+  }
+}
+var newvariable;
+undefineORNull(10);
+undefineORNull("hello");
+undefineORNull(null);
+undefineORNull(newvariable);
